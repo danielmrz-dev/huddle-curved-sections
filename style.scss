@@ -11,6 +11,7 @@ $Light-Pink: #ff8fd8;
 $Light-Red: #ff4242;
 $Very-Dark-Cyan: #00252e;
 $Very-Pale-Blue: #f5faff;
+$Cards-bg: #F6FBFF;
 $White: #fff;
 $Grey: #808080;
 
@@ -103,7 +104,7 @@ body {
             .card {
                 &:nth-child(2),
                 &:nth-child(6) {
-                    background-color: $Very-Pale-Blue;
+                    background-color: $Cards-bg;
                 }
                 .card-title-n-text {
                     .card-title {
